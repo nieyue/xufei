@@ -1,0 +1,281 @@
+﻿ /**
+    **reset
+    */
+    html,body,div,span,img,a{
+        margin:0;
+        padding:0;
+        list-style: none;
+        font-size:16px;
+    }
+    html,body{
+        background-color:#171617; 
+	font-family:"Microsoft YaHei";
+    }
+/**
+**字体自适应
+*/
+    .font-resize-title{
+        font-size:1.9rem !important;
+    }
+    @media screen and (max-width:1000px){
+        .font-resize-title{
+            font-size:1.6rem !important;
+        }
+    }
+    @media screen and (max-width:800px){
+        .font-resize-title{
+            font-size:1.4rem !important;
+        }
+    }
+    @media screen and (max-width:700px){
+        .font-resize-title{
+            font-size:1.2rem !important;
+        }
+    }
+    @media screen and (max-width:600px){
+        .font-resize-title{
+            font-size:1rem !important;
+        }
+    }
+    @media screen and (max-width:500px){
+        .font-resize-title{
+            font-size:0.8rem !important;
+        }
+    }
+    @media screen and (max-width:400px){
+        .font-resize-title{
+            font-size:0.65rem !important;
+        }
+    }
+
+
+    .font-resize{
+        font-size:1.7rem !important;
+    }
+    @media screen and (max-width:1000px){
+        .font-resize{
+            font-size:1.4rem !important;
+        }
+    }
+    @media screen and (max-width:800px){
+        .font-resize{
+            font-size:1.2rem !important;
+        }
+    }
+    @media screen and (max-width:700px){
+        .font-resize{
+            font-size:1rem !important;
+        }
+    }
+    @media screen and (max-width:600px){
+        .font-resize{
+            font-size:0.8rem !important;
+        }
+    }
+    @media screen and (max-width:500px){
+        .font-resize{
+            font-size:0.85rem !important;
+        }
+    }
+    @media screen and (max-width:400px){
+        .font-resize{
+            font-size:0.7rem !important;
+        }
+    }
+  /*
+  *背景
+  */
+    .bgwrap{
+        position: relative;
+        left:50%;
+        top:0;
+        margin-left:-500px;
+        width:1000px; 
+    }
+    @media screen and (max-width:1000px){
+    .bgwrap{
+        position: relative;
+        left:0;
+        top:0;
+        max-width:1000px; 
+        margin-left:0;
+        width:100%;
+    }
+    }
+    .bgwrap .bgwrap-div{
+        position:relative;
+        left:0;
+        top:0;
+        width:100%;
+        font-size:0;
+    }
+    .bgwrap .bgwrap-div .bgwrap-div-img{
+        width:100%;
+    }
+  /*
+  *字、 卷、按钮
+  */
+  .cardwrap{
+    position: absolute;
+    left:0;
+    top:0;
+    margin-left:8%;
+    width:84%;
+  }
+  .cardwrap .cardwrap-div{
+        width:100%;
+        margin-top:3.5%;
+    }
+  .cardwrap .cardwrap-div-card-text{
+        color:#999;
+        margin-left: 5%;
+        width:90%;
+        text-align: center;
+    }
+  .cardwrap .cardwrap-div-card-text span{
+        color:#fc542d;
+    }
+  .cardwrap .cardwrap-div .cardwrap-div-card{
+        width:100%;
+    }
+  .cardwrap .cardwrap-div .cardwrap-div-card-btn{
+        position: absolute;
+        right:5%;
+        top:37%;
+        width:25%;
+        cursor: pointer;
+    }
+  .cardwrap .cardwrap-div-card-btn2{
+       margin-left: 15%;
+        width:70%;
+        cursor: pointer;
+    }
+    .card1{background: url(../img/d1.png) no-repeat;background-size: 100% 100%;width: 80%;height: 7rem;position: relative;}
+    /**
+    **鹅漫U品
+    */
+    .uwrap{
+        /* position: relative;
+        left:0;
+        top:0; 
+        margin-top:0;
+        width:100%; */
+    }
+    
+    .uwrap-bgtop{
+         position: absolute;
+        left:0;
+        top:63%;
+        margin-left:8%;
+        width:84%;
+        z-index:99999;
+        /* margin-top:25%; */
+        height: 90%;
+        background: url("../img/gbg-top.png") no-repeat;
+        background-size: 100% auto;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/gbg-top.png',sizingMethod='scale');
+    }
+    .bgtop2{
+        background: url("../img/gbg-top2.png") no-repeat;
+        background-size: 100% auto;
+        top: 61.1%;
+        height: 60%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/gbg-top2.png',sizingMethod='scale');
+    }
+    .uwrap-mer{
+        position: absolute;
+        left:0;
+        top:74.5%;
+        margin-left:8%;
+        width:84%;
+        z-index:99999;
+        height: auto;
+        background: url("../img/gbg-bottom.png") no-repeat;
+        background-size: 100% 100%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/gbg-bottom.pn',sizingMethod='scale');
+    }
+    .mer2{
+    	background: url("../img/gbg-bottom2.png") no-repeat;
+        background-size: 100% 100%;
+        height: auto;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/gbg-bottom2.png',sizingMethod='scale');
+ }
+    .uwrap-bg{
+        /* width:84%; */
+     height: 100%;
+    }
+    .uwrap-mer-text{
+        width:60%;
+        margin-left:20%;
+        color:#feeb47;
+        text-align:center;
+        margin-bottom:3%;
+    }
+    .uwrap-mer-wrap{
+        width:94%;
+        margin-left:3%;
+        height: 50%;
+        color:#999;
+        margin-top:3%;
+        margin-bottom:3%;
+        text-align:center; 
+    }
+    .uwrap-mer-wrap-item{
+        display: inline-block;
+        width:30%;
+        height: 30%;
+        margin:1% 1%;
+        color:#f5452d;
+        text-align:center; 
+    }
+    .uwrap-mer-wrap-item-imgwrap{
+        width:100%;
+    }
+    .uwrap-mer-wrap-item-imgwrap img{
+        width:100%;
+    }
+    .uwrap-mer-wrap-item-name{
+        margin:0;
+        color:#a8a8a8;
+    }
+    .uwrap-mer-wrap-item-pricewrap{
+        margin:0;
+        color:#a8a8a8;
+        font-size:0;
+    }
+    .uwrap-mer-wrap-item-pricewrap-price{
+        color:#f5452d;
+        display: inline-block;
+      
+    }
+    .uwrap-mer-wrap-item-pricewrap-oldprice{
+          margin-left:15%;
+        text-decoration-line: line-through;
+    }
+    /**
+    **活动规则
+    */
+    .uwrap-bg-active{
+        position: absolute;
+        left:0;
+        top:55%;
+        margin-left:8%;
+        width:84%;
+        z-index:999;
+    }
+    .activewrap{
+        position: absolute;
+        left:0;
+        top:53.2%;
+        margin-left:8%;
+        margin-top: 13%;
+         height:auto; 
+        z-index:999;
+        color:#999;
+        
+    }
+    .activewrap-pwrap{
+        height: 100%;
+        margin:5% 2% 8% 2%;
+    }
+    .activewrap-p{width: 90%;margin: 0.1rem 0 0 1rem;}
